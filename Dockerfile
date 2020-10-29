@@ -1,4 +1,4 @@
-FROM 'alwanly07/php-7.2.12-nginx:cicd'
+FROM '123majumundur/php-7.1-nginx:cicd'
 MAINTAINER Alwan Alyafi Mulyawan<alwanly0709@gmail.com>
 
 RUN composer global require hirak/prestissimo
