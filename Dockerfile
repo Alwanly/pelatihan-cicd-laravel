@@ -11,6 +11,6 @@ RUN composer install --prefer-dist --no-scripts --no-dev --no-autoloader && rm -
 
 COPY --chown=app:root . ./
 
-RUN composer dump-autoloader --no-scripts --no-dev --optimize
+RUN composer dump-autoload --no-scripts --no-dev --optimize
 
 EXPOSE 8080 
